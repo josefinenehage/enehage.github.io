@@ -1,0 +1,145 @@
+:root {
+    --green-color: #183a1d;
+    --beige-color: #fefbe9;
+    --orange-color: #f0a04b;
+    --yellow-color: #f6c453;
+    --mint-color: #e1eedd;
+
+}
+
+html,
+body {
+    padding: 0px;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--green-color);
+    scroll-behavior: smooth
+}
+
+h1 {
+    color: var(--orange-color);
+    font-size: 2.3rem;
+    margin: 0;
+}
+
+h2 {
+    color: var(--yellow-color);
+    font-size: 2rem;
+    margin: 2px;
+    font-weight: 700;
+}
+
+h3 {
+    color: var(--green-color);
+    font-size: 1.9rem;
+}
+
+p {
+    margin-top: 8px;
+    font-size: 1rem;
+}
+
+.intro {
+    background: var(--beige-color);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    flex-direction: column-reverse;
+}
+
+.intro p {
+    display: block;
+}
+
+.presentation img {
+    height: 30px;
+    width: auto;
+    margin-top: 20px;
+}
+
+.image {
+    height: 180px;
+    width: auto;
+    border-radius: 50%;
+
+}
+
+
+.scroll-down {
+    text-decoration: none;
+    color: var(--green-color);
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 3%;
+}
+
+#hello p {
+    margin-top: 3px;
+    margin-bottom: 0;
+}
+
+#hello span {
+    font-size: 2rem;
+}
+
+
+#about-me {
+    height: 100vh;
+    background-color: var(--mint-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+#about-me div {
+
+    width: 60vw;
+}
+
+#about-me a {
+    color: var(--orange-color);
+    text-decoration: none;
+}
+
+#about-me p {
+    font-size: 1.2rem;
+    line-height: 1.3;
+}
+
+
+#links img {
+    height: 50px;
+    padding: 10px;
+}
+
+
+@media only screen and (min-width: 900px) {
+    .intro {
+        padding: 0;
+        flex-direction: row;
+    }
+
+    .image {
+        height: 325px;
+        width: auto;
+        border-radius: 2px;
+        margin: 10%;
+    }
+
+    h1 {
+        font-size: 5rem;
+    }
+
+    h2 {
+        font-size: 4.5rem;
+        margin: 2px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
