@@ -47,6 +47,7 @@ p {
     align-items: center;
     padding-top: 5%;
     flex-direction: column-reverse;
+    padding: 5%;
 }
 
 .intro p {
